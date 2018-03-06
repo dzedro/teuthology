@@ -30,6 +30,8 @@ Standard arguments:
   -s <suite>, --suite <suite>
                               The suite to schedule
   --wait                      Block until the suite is finished
+  --run-name <run_name>       Optional argument used to override name
+                              of the run.
   -c <ceph>, --ceph <ceph>    The ceph branch to run against
   -S <sha1>, --sha1 <sha1>    The ceph sha1 to run against (overrides -c)
                               If both -S and -c are supplied, -S wins, and
